@@ -35,4 +35,4 @@ document.querySelector(".search-box").addEventListener("keyup", function (event)
         weather.search();
     }
 });
-weather.fetchWeather('Tadepalligudem');
+weather.fetchWeather('Visakhapatnam');
