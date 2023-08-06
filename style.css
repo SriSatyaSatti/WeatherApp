@@ -1,0 +1,81 @@
+.card {
+    height: 50vh;
+    width: 100%;
+    max-width: 35vh;
+    border-radius: 30px;
+    background: rgb(204 226 243 / 50%);
+    text-align: center;
+    padding: 1em;
+    margin: auto;
+    box-shadow: 5px 5px 5px #44575e8c;
+    margin-left: 600px;
+}
+.search {
+    display: flex;
+    margin-left: 530px;
+    margin-bottom: 150px;
+}
+input.search-box {
+    border: none;
+    outline: none;
+    background: rgb(204 226 243 / 50%);
+    font-size: 105%
+}
+input::placeholder {
+    padding-left: 15px;
+    color: rgb(88, 92, 92);
+
+}
+button {
+    border: none;
+    border-radius: 50%;
+    width: 5vh;
+    height: 5vh;
+    background: rgb(204 226 243 / 50%);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #44505470;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.search-box {
+    width: 50vh;
+    height: 5vh;
+    border-radius: 25vh;
+    box-shadow: 5px 5px 5px #44575e8c;
+    
+}
+input {
+    padding-left: 20px;
+}
+body {
+    background-image: url('https://images.unsplash.com/photo-1597571063304-81f081944ee8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1936&q=80');
+}
+.temp {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.description {
+    text-transform: capitalize;
+    font-size: large;
+}
+@media screen and (max-width:800px){
+    body{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    }
+    .card{
+        
+        margin-left: 50px;
+    }
+    .search{
+        margin-left: 50px;
+    }
+    .search-box{
+        width: 40vh;
+    }
+}
